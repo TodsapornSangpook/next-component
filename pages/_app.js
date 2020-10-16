@@ -1,7 +1,12 @@
-import '../styles/globals.css'
+import '../styles/globals.css';
+import { applyPolyfills, defineCustomElements } from 'ice-todo-list/loader';
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+	return <Component {...pageProps} />;
 }
 
-export default MyApp
+applyPolyfills().then(() => {
+	defineCustomElements();
+});
+
+export default MyApp;

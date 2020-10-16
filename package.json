@@ -1,15 +1,17 @@
 {
-  "name": "next-component",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
-  "dependencies": {
-    "next": "9.5.5",
-    "react": "16.13.1",
-    "react-dom": "16.13.1"
-  }
+	"name": "next-component",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev -p 3001",
+		"build": "next build",
+		"start": "next start"
+	},
+	"dependencies": {
+		"ice-component-react": "^1.2.8",
+		"ice-todo-list": "0.0.5",
+		"next": "9.5.5",
+		"react": "16.13.1",
+		"react-dom": "16.13.1"
+	}
 }
