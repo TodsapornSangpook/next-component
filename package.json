@@ -12,6 +12,12 @@
 		"ice-todo-list": "0.0.5",
 		"next": "9.5.5",
 		"react": "16.13.1",
+		"react-aria-menubutton": "^7.0.0",
 		"react-dom": "16.13.1"
+	},
+	"devDependencies": {
+		"@types/node": "^14.11.10",
+		"@types/react": "^16.9.53",
+		"typescript": "^4.0.3"
 	}
 }
